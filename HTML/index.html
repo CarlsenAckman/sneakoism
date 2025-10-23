@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sneakoism</title>
+<link rel="icon" type="image/png" href="sneako2.png">
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', 'Segoe UI', sans-serif;
+    background: url('image-background1.png') no-repeat center center fixed;
+    background-size: cover;
+    background-color: #000000;
+    color: #d13f3f;
+    line-height: 1.8;
+    overflow-x: hidden;
+    position: relative;
+  }
+
+  body::before {
+    content: "";
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background-color: rgba(0,0,0,0.85);
+    z-index: -1;
+  }
+
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 60px 20px;
+  }
+
+  h1, h2, h3 {
+    color: #d13f3f;
+    font-weight: 700;
+    margin-bottom: 15px;
+    text-align: center;
+    position: relative;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 1s ease;
+  }
+
+  h1.visible, h2.visible, h3.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  p, li {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  ul {
+    padding-left: 25px;
+  }
+
+  blockquote {
+    font-style: italic;
+    border-left: 4px solid #d13f3f;
+    padding-left: 20px;
+    margin: 30px 0;
+    opacity: 0;
+    transform: translateX(-30px);
+    transition: all 1.2s ease;
+    color: #ff4f4f;
+    font-weight: 500;
+  }
+
+  blockquote.visible {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+  /* Link styling with animated underline */
+  a {
+    color: #ff6666;
+    text-decoration: none;
+    position: relative;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+
+  a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    width: 0%;
+    height: 2px;
+    background: #ff6666;
+    transition: width 0.3s ease;
+  }
+
+  a:hover {
+    color: #ff7a7a;
+  }
+
+  a:hover::after {
+    width: 100%;
+  }
+
+  .author {
+    text-align: right;
+    font-size: 0.9rem;
+    color: #d13f3f;
+    margin-top: 60px;
+    border-top: 1px solid #333;
+    padding-top: 10px;
+  }
+
+  footer {
+    text-align: center;
+    padding: 20px 0;
+    border-top: 1px solid #333;
+    color: #d13f3f;
+    font-size: 0.9rem;
+    margin-top: 50px;
+  }
+
+  .footer-links {
+    margin-top: 20px;
+    line-height: 2;
+  }
+
+  .footer-links a {
+    display: inline-block;
+    margin: 6px 0;
+  }
+
+  .section-divider {
+    height: 1px;
+    background: linear-gradient(to right, #333, #000000, #333);
+    margin: 40px 0;
+    opacity: 0.6;
+  }
+
+  .section {
+    margin-bottom: 60px;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <h1>Sneakoism: A Philosophy of Self-Improvement, Authenticity, Truth-Seeking and Free Thinking.</h1>
+
+  <h2>What is Sneakoism?</h2>
+  <p>
+    Sneakoism is a modern philosophy that centers on self-improvement, Free thinking, and seeking truth.
+    It is not a collection of principles—it is a conscious way of living, being accountable for one's decisions,
+    and pushing against social narratives to make life conform to personal values.
+  </p>
+  <p>
+    Sneakoism believing is about holding on to self-improvement, questioning assumptions, and seeking for truth
+    without fear of censure. Applying Sneakoism is about incorporating its values into everyday life:
+    nurturing discipline, independent creativity, and real relationships, ever reflecting
+    on one's actions, beliefs, and purpose.
+  </p>
+  <p>
+    In short, Sneakoism is both a mindset and a practice: it guides how followers think, act, and engage 
+    with the world in pursuit of authenticity and purposeful living.
+  </p>
+
+  <div class="section-divider"></div>
+
+  <h2>1. Background: The Evolution of Sneakoism</h2>
+  <p>
+    Sneako started his web life with social critique and street interviews. Recent developments
+    reflect a philosophical trend towards individual growth, constructive communication, and disciplined self-expression.
+  </p>
+  <blockquote>“Growth starts when you stop chasing approval… and start being honest with yourself.” — Sneako</blockquote>
+
+  <h2>2. Core Principles of Sneakoism</h2>
+  <h3>Authenticity</h3>
+  <p>At the heart of Sneakoism is authenticity — aligning words, actions, and values.</p>
+  <blockquote>“You can’t just say what feels good… you have to live what’s real.” — Sneako</blockquote>
+
+  <h3>Truth-Seeking</h3>
+  <p>Truth is actively pursued through observation, reflection, and dialogue and Truth is founded by handed out.</p>
+  <blockquote>“Question everything… truth isn’t handed out.” — Sneako</blockquote>
+
+  <h3>Self-Improvement</h3>
+  <p>Continuous self-development is emphasized across mental, physical, and creative domains.</p>
+  <blockquote>“Discipline isn’t punishment… it’s freedom in the making.” — Sneako</blockquote>
+
+  <h3>Creative Independence</h3>
+  <p>Encourages original thought, innovative expression, and courage to create without fear.</p>
+  <blockquote>“Your ideas are yours… protect them, shape them, let them speak.” — Sneako</blockquote>
+
+  <div class="section-divider"></div>
+
+  <h2>Conclusion</h2>
+  <p>
+    Sneakoism challenges individuals to think independently, live intentionally, and refine themselves daily. 
+    It provides tools for self-development, ethical engagement, and purposeful creativity.
+  </p>
+
+  <div class="author">
+    Written and maintained by Carlsen Ackman — Author & Creator of this page.
+  </div>
+</div>
+
+<footer>
+  <div class="footer-links">
+    <strong>Official Links:</strong><br>
+    <a href="https://prjx.gg/" target="_blank">Website: prjx.gg</a><br>
+    <a href="https://parti.com/SNEAKO" target="_blank">Parti: parti.com/SNEAKO</a><br>
+    <a href="https://discord.gg/lovespeech" target="_blank">Discord: discord.gg/lovespeech</a><br>
+    <a href="https://x.com/i/communities/1695187660526981214" target="_blank">Twitter Community: LoveSpeech</a><br>
+    <a href="https://www.youtube.com/@SHNEAKO" target="_blank">YouTube: @SHNEAKO</a>
+  </div>
+  &copy; 2025 LoveSpeech. All rights reserved.
+</footer>
+
+<script>
+  const quotes = document.querySelectorAll('blockquote');
+  const headers = document.querySelectorAll('h1, h2, h3');
+
+  function revealOnScroll() {
+      const scrollY = window.scrollY + window.innerHeight;
+
+      quotes.forEach(q => {
+          if(q.offsetTop < scrollY - 50) q.classList.add('visible');
+      });
+
+      headers.forEach(h => {
+          if(h.offsetTop < scrollY - 50) h.classList.add('visible');
+      });
+  }
+
+  window.addEventListener('scroll', revealOnScroll);
+  window.addEventListener('load', revealOnScroll);
+</script>
+</body>
+</html>
+
+
